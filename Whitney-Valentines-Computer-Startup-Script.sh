@@ -30,6 +30,10 @@ sudo chmod +x installer.sh; sudo ./installer.sh
 sudo cp /etc/g910-gkeys/config.json configDEFAULT.json
 wget https://raw.githubusercontent.com/wgcj/newcomp/main/transferredconfigfile.json transferredconfigfile.json
 cp transferredconfigfile.json /etc/g910-gkeys/config.json
+cat ***** FFXIV *****
+cd ~/Downloads
+wget -0 ffxivinstallscript.json https://lutris.net/api/installers/final-fantasy-xiv-online-official?format=json
+lutris -i ffxivinstallscript.json
 cat *****wallpaper*****
 cd ~/Downloads
 wget https://i.imgur.com/snWTz2y.jpeg
