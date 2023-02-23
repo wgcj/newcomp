@@ -10,4 +10,6 @@ protonvpn-cli c -f
 Update the Lutris Config (Steam updates break Lutris) to fix issues where games stall on "Launching"
 https://github.com/lutris/lutris/commit/072e72a4aefd91101b79dd05d8ce9f100a4b6b0c
 
+Test the g910 Keyboard by pressing G3 (it should be a capital B)
+
 Set Wallpaper
