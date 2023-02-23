@@ -27,10 +27,14 @@ cd ~/Utilities/keyboard
 modprobe uinput
 git clone https://github.com/JSubelj/g910-gkey-macro-support.git
 cd g910-gkey-macro-support
-sudo chmod +x installer.sh; sudo ./installer.sh
+sudo python3 setup.py install --record files.txt
+sudo g910-gkeys -v
+cp g910-gkeys.service /usr/lib/systemd/system; systemctl daemon-reload
+systemctl enable --now g910-gkeys
 sudo cp /etc/g910-gkeys/config.json configDEFAULT.json
 wget https://raw.githubusercontent.com/wgcj/newcomp/main/transferredconfigfile.json transferredconfigfile.json
 cp transferredconfigfile.json /etc/g910-gkeys/config.json
+systemctl restart --now g910-gkeys
 echo ***** FFXIV *****
 cd ~/Downloads
 wget -0 ffxivinstallscript.json https://lutris.net/api/installers/final-fantasy-xiv-online-official?format=json
