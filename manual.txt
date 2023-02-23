@@ -7,4 +7,7 @@ systemctl start g910-gkeys
 protonvpn-cli c -f
 "/home/whitney/Downloads/Nextcloud-3.6.4-x86_64.AppImage" --background
 
+Update the Lutris Config (Steam updates break Lutris) to fix issues where games stall on "Launching"
+https://github.com/lutris/lutris/commit/072e72a4aefd91101b79dd05d8ce9f100a4b6b0c
+
 Set Wallpaper
