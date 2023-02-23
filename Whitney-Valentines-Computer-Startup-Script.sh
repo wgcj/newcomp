@@ -19,7 +19,7 @@ sudo apt install ./dropbox_2020.03.04_amd64.deb
 echo *****appimage for some awful reason*****
 wget https://github.com/nextcloud/desktop/releases/download/v3.7.3/Nextcloud-3.7.3-x86_64.AppImage
 chmod a+x Nextcloud-3.7.3-x86_64.AppImage
-./exampleName.AppImage
+./Nextcloud-3.7.3-x86_64.AppImage
 echo *****keyboard*****
 mkdir ~/Utilities/keyboard
 cd ~/Utilities/keyboard
