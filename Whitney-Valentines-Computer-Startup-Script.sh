@@ -21,6 +21,7 @@ wget https://github.com/nextcloud/desktop/releases/download/v3.7.3/Nextcloud-3.7
 sudo chmod a+x Nextcloud-3.7.3-x86_64.AppImage
 ./Nextcloud-3.7.3-x86_64.AppImage
 echo *****keyboard*****
+## don't do this, do this instead: https://github.com/JSubelj/g910-gkey-macro-support/wiki/Detailed-installation#build-package-from-source
 mkdir ~/Utilities/keyboard
 cd ~/Utilities/keyboard
 modprobe uinput
